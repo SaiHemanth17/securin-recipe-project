@@ -3,11 +3,11 @@ import psycopg2
 import math
 
 # --- IMPORTANT: Replace with your actual PostgreSQL connection details ---
-DB_NAME = "recipes_db"  # The name you chose in step 3.1
-DB_USER = "postgres"    # Your PostgreSQL username (default is postgres)
-DB_PASS = "Nvrrnmsh@17" # The password you set during installation
-DB_HOST = "localhost"   # Usually correct if the DB is on your machine
-DB_PORT = "5432"        # The default PostgreSQL port
+DB_NAME = "recipes_db"  
+DB_USER = "postgres"    
+DB_PASS = "Nvrrnmsh@17" 
+DB_HOST = "localhost"   
+DB_PORT = "5432"        
 
 
 def clean_value(value):
@@ -83,7 +83,7 @@ def import_recipes_to_db(json_file_path):
                 recipe.get('serves')
             )
 
-            cur.execute("TRUNCATE TABLE recipes RESTART IDENTITY;") # Add this line
+            cur.execute("TRUNCATE TABLE recipes RESTART IDENTITY;")
             cur.execute(insert_query, record_to_insert)
             
 
