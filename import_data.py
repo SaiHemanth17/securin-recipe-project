@@ -83,7 +83,6 @@ def import_recipes_to_db(json_file_path):
                 recipe.get('serves')
             )
 
-            cur.execute("TRUNCATE TABLE recipes RESTART IDENTITY;")
             cur.execute(insert_query, record_to_insert)
             
 

@@ -1,410 +1,942 @@
 [
   {
-    "name": "Texas BBQ Ribs",
-    "region": "Texas",
-    "category": "BBQ",
-    "main_ingredients": ["pork ribs", "BBQ sauce", "spices"],
-    "cooking_method": "Smoked",
-    "popularity": "High"
+    "title": "Texas BBQ Ribs",
+    "cuisine": "Texas",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "BBQ",
+    "nutrients": {
+      "main_ingredients": [
+        "pork ribs",
+        "BBQ sauce",
+        "spices"
+      ],
+      "cooking_method": "Smoked"
+    },
+    "serves": "High"
   },
   {
-    "name": "Philly Cheesesteak",
-    "region": "Pennsylvania",
-    "category": "Sandwich",
-    "main_ingredients": ["beef", "cheese", "hoagie roll", "onions"],
-    "cooking_method": "Grilled",
-    "popularity": "High"
+    "title": "Philly Cheesesteak",
+    "cuisine": "Pennsylvania",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Sandwich",
+    "nutrients": {
+      "main_ingredients": [
+        "beef",
+        "cheese",
+        "hoagie roll",
+        "onions"
+      ],
+      "cooking_method": "Grilled"
+    },
+    "serves": "High"
   },
   {
-    "name": "Cornbread",
-    "region": "Southern States",
-    "category": "Bread",
-    "main_ingredients": ["cornmeal", "buttermilk", "eggs"],
-    "cooking_method": "Baked",
-    "popularity": "Medium"
+    "title": "Cornbread",
+    "cuisine": "Southern States",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Bread",
+    "nutrients": {
+      "main_ingredients": [
+        "cornmeal",
+        "buttermilk",
+        "eggs"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Apple Pie",
-    "region": "Nationwide",
-    "category": "Dessert",
-    "main_ingredients": ["apples", "sugar", "flour", "butter"],
-    "cooking_method": "Baked",
-    "popularity": "High"
+    "title": "Apple Pie",
+    "cuisine": "Nationwide",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Dessert",
+    "nutrients": {
+      "main_ingredients": [
+        "apples",
+        "sugar",
+        "flour",
+        "butter"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "High"
   },
   {
-    "name": "Chicago Deep-Dish Pizza",
-    "region": "Illinois",
-    "category": "Pizza",
-    "main_ingredients": ["dough", "tomato sauce", "cheese", "sausage"],
-    "cooking_method": "Baked",
-    "popularity": "High"
+    "title": "Chicago Deep-Dish Pizza",
+    "cuisine": "Illinois",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Pizza",
+    "nutrients": {
+      "main_ingredients": [
+        "dough",
+        "tomato sauce",
+        "cheese",
+        "sausage"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "High"
   },
   {
-    "name": "New England Clam Chowder",
-    "region": "Massachusetts",
-    "category": "Soup",
-    "main_ingredients": ["clams", "potatoes", "cream", "onions"],
-    "cooking_method": "Boiled",
-    "popularity": "High"
+    "title": "New England Clam Chowder",
+    "cuisine": "Massachusetts",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Soup",
+    "nutrients": {
+      "main_ingredients": [
+        "clams",
+        "potatoes",
+        "cream",
+        "onions"
+      ],
+      "cooking_method": "Boiled"
+    },
+    "serves": "High"
   },
   {
-    "name": "Cajun Jambalaya",
-    "region": "Louisiana",
-    "category": "Rice Dish",
-    "main_ingredients": ["rice", "sausage", "chicken", "shrimp", "spices"],
-    "cooking_method": "Simmered",
-    "popularity": "High"
+    "title": "Cajun Jambalaya",
+    "cuisine": "Louisiana",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Rice Dish",
+    "nutrients": {
+      "main_ingredients": [
+        "rice",
+        "sausage",
+        "chicken",
+        "shrimp",
+        "spices"
+      ],
+      "cooking_method": "Simmered"
+    },
+    "serves": "High"
   },
   {
-    "name": "Shrimp and Grits",
-    "region": "South Carolina",
-    "category": "Seafood",
-    "main_ingredients": ["shrimp", "grits", "butter", "cheese"],
-    "cooking_method": "Sauteed",
-    "popularity": "Medium"
+    "title": "Shrimp and Grits",
+    "cuisine": "South Carolina",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Seafood",
+    "nutrients": {
+      "main_ingredients": [
+        "shrimp",
+        "grits",
+        "butter",
+        "cheese"
+      ],
+      "cooking_method": "Sauteed"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Lobster Roll",
-    "region": "Maine",
-    "category": "Sandwich",
-    "main_ingredients": ["lobster", "butter", "roll"],
-    "cooking_method": "Boiled",
-    "popularity": "High"
+    "title": "Lobster Roll",
+    "cuisine": "Maine",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Sandwich",
+    "nutrients": {
+      "main_ingredients": [
+        "lobster",
+        "butter",
+        "roll"
+      ],
+      "cooking_method": "Boiled"
+    },
+    "serves": "High"
   },
   {
-    "name": "Nashville Hot Chicken",
-    "region": "Tennessee",
-    "category": "Fried Chicken",
-    "main_ingredients": ["chicken", "hot sauce", "flour"],
-    "cooking_method": "Fried",
-    "popularity": "High"
+    "title": "Nashville Hot Chicken",
+    "cuisine": "Tennessee",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Fried Chicken",
+    "nutrients": {
+      "main_ingredients": [
+        "chicken",
+        "hot sauce",
+        "flour"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "High"
   },
   {
-    "name": "Kansas City Burnt Ends",
-    "region": "Missouri",
-    "category": "BBQ",
-    "main_ingredients": ["brisket", "BBQ sauce", "spices"],
-    "cooking_method": "Smoked",
-    "popularity": "Medium"
+    "title": "Kansas City Burnt Ends",
+    "cuisine": "Missouri",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "BBQ",
+    "nutrients": {
+      "main_ingredients": [
+        "brisket",
+        "BBQ sauce",
+        "spices"
+      ],
+      "cooking_method": "Smoked"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Key Lime Pie",
-    "region": "Florida",
-    "category": "Dessert",
-    "main_ingredients": ["key limes", "graham cracker crust", "condensed milk"],
-    "cooking_method": "Chilled",
-    "popularity": "High"
+    "title": "Key Lime Pie",
+    "cuisine": "Florida",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Dessert",
+    "nutrients": {
+      "main_ingredients": [
+        "key limes",
+        "graham cracker crust",
+        "condensed milk"
+      ],
+      "cooking_method": "Chilled"
+    },
+    "serves": "High"
   },
   {
-    "name": "Chicken Fried Steak",
-    "region": "Texas",
-    "category": "Meat Dish",
-    "main_ingredients": ["beef steak", "flour", "gravy"],
-    "cooking_method": "Fried",
-    "popularity": "Medium"
+    "title": "Chicken Fried Steak",
+    "cuisine": "Texas",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Meat Dish",
+    "nutrients": {
+      "main_ingredients": [
+        "beef steak",
+        "flour",
+        "gravy"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Gumbo",
-    "region": "Louisiana",
-    "category": "Stew",
-    "main_ingredients": ["seafood or chicken", "okra", "spices", "rice"],
-    "cooking_method": "Simmered",
-    "popularity": "High"
+    "title": "Gumbo",
+    "cuisine": "Louisiana",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Stew",
+    "nutrients": {
+      "main_ingredients": [
+        "seafood or chicken",
+        "okra",
+        "spices",
+        "rice"
+      ],
+      "cooking_method": "Simmered"
+    },
+    "serves": "High"
   },
   {
-    "name": "Po’ Boy Sandwich",
-    "region": "Louisiana",
-    "category": "Sandwich",
-    "main_ingredients": ["shrimp or roast beef", "French bread", "lettuce", "tomato"],
-    "cooking_method": "Fried or Grilled",
-    "popularity": "Medium"
+    "title": "Po\u2019 Boy Sandwich",
+    "cuisine": "Louisiana",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Sandwich",
+    "nutrients": {
+      "main_ingredients": [
+        "shrimp or roast beef",
+        "French bread",
+        "lettuce",
+        "tomato"
+      ],
+      "cooking_method": "Fried or Grilled"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Cuban Sandwich",
-    "region": "Florida",
-    "category": "Sandwich",
-    "main_ingredients": ["ham", "pork", "cheese", "pickles", "Cuban bread"],
-    "cooking_method": "Pressed Grilled",
-    "popularity": "High"
+    "title": "Cuban Sandwich",
+    "cuisine": "Florida",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Sandwich",
+    "nutrients": {
+      "main_ingredients": [
+        "ham",
+        "pork",
+        "cheese",
+        "pickles",
+        "Cuban bread"
+      ],
+      "cooking_method": "Pressed Grilled"
+    },
+    "serves": "High"
   },
   {
-    "name": "Chili con Carne",
-    "region": "Texas",
-    "category": "Stew",
-    "main_ingredients": ["beef", "beans", "tomatoes", "chili peppers"],
-    "cooking_method": "Simmered",
-    "popularity": "High"
+    "title": "Chili con Carne",
+    "cuisine": "Texas",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Stew",
+    "nutrients": {
+      "main_ingredients": [
+        "beef",
+        "beans",
+        "tomatoes",
+        "chili peppers"
+      ],
+      "cooking_method": "Simmered"
+    },
+    "serves": "High"
   },
   {
-    "name": "New York Cheesecake",
-    "region": "New York",
-    "category": "Dessert",
-    "main_ingredients": ["cream cheese", "sugar", "graham cracker crust"],
-    "cooking_method": "Baked",
-    "popularity": "High"
+    "title": "New York Cheesecake",
+    "cuisine": "New York",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Dessert",
+    "nutrients": {
+      "main_ingredients": [
+        "cream cheese",
+        "sugar",
+        "graham cracker crust"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "High"
   },
   {
-    "name": "Buffalo Wings",
-    "region": "New York",
-    "category": "Appetizer",
-    "main_ingredients": ["chicken wings", "hot sauce", "butter"],
-    "cooking_method": "Fried",
-    "popularity": "High"
+    "title": "Buffalo Wings",
+    "cuisine": "New York",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Appetizer",
+    "nutrients": {
+      "main_ingredients": [
+        "chicken wings",
+        "hot sauce",
+        "butter"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "High"
   },
   {
-    "name": "Boston Baked Beans",
-    "region": "Massachusetts",
-    "category": "Side Dish",
-    "main_ingredients": ["beans", "molasses", "pork"],
-    "cooking_method": "Baked",
-    "popularity": "Medium"
+    "title": "Boston Baked Beans",
+    "cuisine": "Massachusetts",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Side Dish",
+    "nutrients": {
+      "main_ingredients": [
+        "beans",
+        "molasses",
+        "pork"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Mississippi Mud Pie",
-    "region": "Mississippi",
-    "category": "Dessert",
-    "main_ingredients": ["chocolate", "whipped cream", "cookie crust"],
-    "cooking_method": "Chilled",
-    "popularity": "Medium"
+    "title": "Mississippi Mud Pie",
+    "cuisine": "Mississippi",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Dessert",
+    "nutrients": {
+      "main_ingredients": [
+        "chocolate",
+        "whipped cream",
+        "cookie crust"
+      ],
+      "cooking_method": "Chilled"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Maryland Crab Cakes",
-    "region": "Maryland",
-    "category": "Seafood",
-    "main_ingredients": ["crab meat", "breadcrumbs", "mayonnaise"],
-    "cooking_method": "Pan-fried",
-    "popularity": "High"
+    "title": "Maryland Crab Cakes",
+    "cuisine": "Maryland",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Seafood",
+    "nutrients": {
+      "main_ingredients": [
+        "crab meat",
+        "breadcrumbs",
+        "mayonnaise"
+      ],
+      "cooking_method": "Pan-fried"
+    },
+    "serves": "High"
   },
   {
-    "name": "Reuben Sandwich",
-    "region": "New York",
-    "category": "Sandwich",
-    "main_ingredients": ["corned beef", "sauerkraut", "Swiss cheese", "rye bread"],
-    "cooking_method": "Grilled",
-    "popularity": "High"
+    "title": "Reuben Sandwich",
+    "cuisine": "New York",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Sandwich",
+    "nutrients": {
+      "main_ingredients": [
+        "corned beef",
+        "sauerkraut",
+        "Swiss cheese",
+        "rye bread"
+      ],
+      "cooking_method": "Grilled"
+    },
+    "serves": "High"
   },
   {
-    "name": "Smoked Brisket",
-    "region": "Texas",
-    "category": "BBQ",
-    "main_ingredients": ["beef brisket", "dry rub spices"],
-    "cooking_method": "Smoked",
-    "popularity": "High"
+    "title": "Smoked Brisket",
+    "cuisine": "Texas",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "BBQ",
+    "nutrients": {
+      "main_ingredients": [
+        "beef brisket",
+        "dry rub spices"
+      ],
+      "cooking_method": "Smoked"
+    },
+    "serves": "High"
   },
   {
-    "name": "Fish Tacos",
-    "region": "California",
-    "category": "Seafood",
-    "main_ingredients": ["fish", "tortilla", "cabbage", "salsa"],
-    "cooking_method": "Grilled",
-    "popularity": "Medium"
+    "title": "Fish Tacos",
+    "cuisine": "California",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Seafood",
+    "nutrients": {
+      "main_ingredients": [
+        "fish",
+        "tortilla",
+        "cabbage",
+        "salsa"
+      ],
+      "cooking_method": "Grilled"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Denver Omelet",
-    "region": "Colorado",
-    "category": "Breakfast",
-    "main_ingredients": ["eggs", "ham", "onions", "peppers"],
-    "cooking_method": "Fried",
-    "popularity": "Medium"
+    "title": "Denver Omelet",
+    "cuisine": "Colorado",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Breakfast",
+    "nutrients": {
+      "main_ingredients": [
+        "eggs",
+        "ham",
+        "onions",
+        "peppers"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Biscuits and Gravy",
-    "region": "Southern States",
-    "category": "Breakfast",
-    "main_ingredients": ["biscuits", "sausage gravy"],
-    "cooking_method": "Baked/Fried",
-    "popularity": "High"
+    "title": "Biscuits and Gravy",
+    "cuisine": "Southern States",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Breakfast",
+    "nutrients": {
+      "main_ingredients": [
+        "biscuits",
+        "sausage gravy"
+      ],
+      "cooking_method": "Baked/Fried"
+    },
+    "serves": "High"
   },
   {
-    "name": "Fried Catfish",
-    "region": "Southern States",
-    "category": "Seafood",
-    "main_ingredients": ["catfish", "cornmeal", "oil"],
-    "cooking_method": "Fried",
-    "popularity": "Medium"
+    "title": "Fried Catfish",
+    "cuisine": "Southern States",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Seafood",
+    "nutrients": {
+      "main_ingredients": [
+        "catfish",
+        "cornmeal",
+        "oil"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Cobb Salad",
-    "region": "California",
-    "category": "Salad",
-    "main_ingredients": ["lettuce", "chicken", "bacon", "avocado", "egg"],
-    "cooking_method": "Fresh",
-    "popularity": "Medium"
+    "title": "Cobb Salad",
+    "cuisine": "California",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Salad",
+    "nutrients": {
+      "main_ingredients": [
+        "lettuce",
+        "chicken",
+        "bacon",
+        "avocado",
+        "egg"
+      ],
+      "cooking_method": "Fresh"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Waldorf Salad",
-    "region": "New York",
-    "category": "Salad",
-    "main_ingredients": ["apples", "walnuts", "celery", "mayonnaise"],
-    "cooking_method": "Fresh",
-    "popularity": "Medium"
+    "title": "Waldorf Salad",
+    "cuisine": "New York",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Salad",
+    "nutrients": {
+      "main_ingredients": [
+        "apples",
+        "walnuts",
+        "celery",
+        "mayonnaise"
+      ],
+      "cooking_method": "Fresh"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Chicken Pot Pie",
-    "region": "Pennsylvania Dutch",
-    "category": "Pie",
-    "main_ingredients": ["chicken", "vegetables", "gravy", "pastry crust"],
-    "cooking_method": "Baked",
-    "popularity": "Medium"
+    "title": "Chicken Pot Pie",
+    "cuisine": "Pennsylvania Dutch",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Pie",
+    "nutrients": {
+      "main_ingredients": [
+        "chicken",
+        "vegetables",
+        "gravy",
+        "pastry crust"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Sloppy Joe",
-    "region": "Midwest",
-    "category": "Sandwich",
-    "main_ingredients": ["ground beef", "tomato sauce", "bun"],
-    "cooking_method": "Simmered",
-    "popularity": "Medium"
+    "title": "Sloppy Joe",
+    "cuisine": "Midwest",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Sandwich",
+    "nutrients": {
+      "main_ingredients": [
+        "ground beef",
+        "tomato sauce",
+        "bun"
+      ],
+      "cooking_method": "Simmered"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Cincinnati Chili",
-    "region": "Ohio",
-    "category": "Stew",
-    "main_ingredients": ["ground beef", "spices", "tomato sauce"],
-    "cooking_method": "Simmered",
-    "popularity": "Medium"
+    "title": "Cincinnati Chili",
+    "cuisine": "Ohio",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Stew",
+    "nutrients": {
+      "main_ingredients": [
+        "ground beef",
+        "spices",
+        "tomato sauce"
+      ],
+      "cooking_method": "Simmered"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Pierogi",
-    "region": "Pennsylvania",
-    "category": "Dumpling",
-    "main_ingredients": ["dough", "potatoes", "cheese"],
-    "cooking_method": "Boiled/Fried",
-    "popularity": "Medium"
+    "title": "Pierogi",
+    "cuisine": "Pennsylvania",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Dumpling",
+    "nutrients": {
+      "main_ingredients": [
+        "dough",
+        "potatoes",
+        "cheese"
+      ],
+      "cooking_method": "Boiled/Fried"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Chicago Italian Beef Sandwich",
-    "region": "Illinois",
-    "category": "Sandwich",
-    "main_ingredients": ["beef", "bread", "giardiniera"],
-    "cooking_method": "Roasted",
-    "popularity": "Medium"
+    "title": "Chicago Italian Beef Sandwich",
+    "cuisine": "Illinois",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Sandwich",
+    "nutrients": {
+      "main_ingredients": [
+        "beef",
+        "bread",
+        "giardiniera"
+      ],
+      "cooking_method": "Roasted"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Avocado Toast",
-    "region": "California",
-    "category": "Breakfast",
-    "main_ingredients": ["bread", "avocado", "seasoning"],
-    "cooking_method": "Fresh",
-    "popularity": "High"
+    "title": "Avocado Toast",
+    "cuisine": "California",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Breakfast",
+    "nutrients": {
+      "main_ingredients": [
+        "bread",
+        "avocado",
+        "seasoning"
+      ],
+      "cooking_method": "Fresh"
+    },
+    "serves": "High"
   },
   {
-    "name": "Hush Puppies",
-    "region": "Southern States",
-    "category": "Side Dish",
-    "main_ingredients": ["cornmeal", "flour", "oil"],
-    "cooking_method": "Fried",
-    "popularity": "Medium"
+    "title": "Hush Puppies",
+    "cuisine": "Southern States",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Side Dish",
+    "nutrients": {
+      "main_ingredients": [
+        "cornmeal",
+        "flour",
+        "oil"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Meatloaf",
-    "region": "Midwest",
-    "category": "Meat Dish",
-    "main_ingredients": ["ground beef", "breadcrumbs", "onion", "egg"],
-    "cooking_method": "Baked",
-    "popularity": "High"
+    "title": "Meatloaf",
+    "cuisine": "Midwest",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Meat Dish",
+    "nutrients": {
+      "main_ingredients": [
+        "ground beef",
+        "breadcrumbs",
+        "onion",
+        "egg"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "High"
   },
   {
-    "name": "Hotdish",
-    "region": "Minnesota",
-    "category": "Casserole",
-    "main_ingredients": ["ground beef", "tater tots", "cream soup"],
-    "cooking_method": "Baked",
-    "popularity": "Medium"
+    "title": "Hotdish",
+    "cuisine": "Minnesota",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Casserole",
+    "nutrients": {
+      "main_ingredients": [
+        "ground beef",
+        "tater tots",
+        "cream soup"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Sweet Potato Pie",
-    "region": "Southern States",
-    "category": "Dessert",
-    "main_ingredients": ["sweet potatoes", "sugar", "butter", "spices"],
-    "cooking_method": "Baked",
-    "popularity": "Medium"
+    "title": "Sweet Potato Pie",
+    "cuisine": "Southern States",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Dessert",
+    "nutrients": {
+      "main_ingredients": [
+        "sweet potatoes",
+        "sugar",
+        "butter",
+        "spices"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Corn Dogs",
-    "region": "Midwest",
-    "category": "Snack",
-    "main_ingredients": ["hot dogs", "cornmeal batter"],
-    "cooking_method": "Fried",
-    "popularity": "High"
+    "title": "Corn Dogs",
+    "cuisine": "Midwest",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Snack",
+    "nutrients": {
+      "main_ingredients": [
+        "hot dogs",
+        "cornmeal batter"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "High"
   },
   {
-    "name": "Tater Tot Casserole",
-    "region": "Midwest",
-    "category": "Casserole",
-    "main_ingredients": ["tater tots", "cheese", "beef", "soup"],
-    "cooking_method": "Baked",
-    "popularity": "Medium"
+    "title": "Tater Tot Casserole",
+    "cuisine": "Midwest",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Casserole",
+    "nutrients": {
+      "main_ingredients": [
+        "tater tots",
+        "cheese",
+        "beef",
+        "soup"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Smoked Salmon Bagel",
-    "region": "New York",
-    "category": "Breakfast",
-    "main_ingredients": ["bagel", "smoked salmon", "cream cheese"],
-    "cooking_method": "Fresh",
-    "popularity": "High"
+    "title": "Smoked Salmon Bagel",
+    "cuisine": "New York",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Breakfast",
+    "nutrients": {
+      "main_ingredients": [
+        "bagel",
+        "smoked salmon",
+        "cream cheese"
+      ],
+      "cooking_method": "Fresh"
+    },
+    "serves": "High"
   },
   {
-    "name": "Tamale Pie",
-    "region": "Southwest",
-    "category": "Pie",
-    "main_ingredients": ["cornmeal", "beef", "tomatoes", "spices"],
-    "cooking_method": "Baked",
-    "popularity": "Medium"
+    "title": "Tamale Pie",
+    "cuisine": "Southwest",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Pie",
+    "nutrients": {
+      "main_ingredients": [
+        "cornmeal",
+        "beef",
+        "tomatoes",
+        "spices"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Indian Fry Bread",
-    "region": "Southwest",
-    "category": "Bread",
-    "main_ingredients": ["flour", "oil", "salt"],
-    "cooking_method": "Fried",
-    "popularity": "Medium"
+    "title": "Indian Fry Bread",
+    "cuisine": "Southwest",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Bread",
+    "nutrients": {
+      "main_ingredients": [
+        "flour",
+        "oil",
+        "salt"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Frito Pie",
-    "region": "Texas",
-    "category": "Snack",
-    "main_ingredients": ["Fritos", "chili", "cheese"],
-    "cooking_method": "Layered",
-    "popularity": "Medium"
+    "title": "Frito Pie",
+    "cuisine": "Texas",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Snack",
+    "nutrients": {
+      "main_ingredients": [
+        "Fritos",
+        "chili",
+        "cheese"
+      ],
+      "cooking_method": "Layered"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Green Chile Stew",
-    "region": "New Mexico",
-    "category": "Stew",
-    "main_ingredients": ["green chiles", "pork", "potatoes"],
-    "cooking_method": "Simmered",
-    "popularity": "Medium"
+    "title": "Green Chile Stew",
+    "cuisine": "New Mexico",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Stew",
+    "nutrients": {
+      "main_ingredients": [
+        "green chiles",
+        "pork",
+        "potatoes"
+      ],
+      "cooking_method": "Simmered"
+    },
+    "serves": "Medium"
   },
   {
-    "name": "Chitlins",
-    "region": "Southern States",
-    "category": "Meat Dish",
-    "main_ingredients": ["pig intestines", "vinegar", "spices"],
-    "cooking_method": "Boiled/Fried",
-    "popularity": "Low"
+    "title": "Chitlins",
+    "cuisine": "Southern States",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Meat Dish",
+    "nutrients": {
+      "main_ingredients": [
+        "pig intestines",
+        "vinegar",
+        "spices"
+      ],
+      "cooking_method": "Boiled/Fried"
+    },
+    "serves": "Low"
   },
   {
-    "name": "Scrapple",
-    "region": "Pennsylvania Dutch",
-    "category": "Meat Dish",
-    "main_ingredients": ["pork scraps", "cornmeal", "flour"],
-    "cooking_method": "Fried",
-    "popularity": "Low"
+    "title": "Scrapple",
+    "cuisine": "Pennsylvania Dutch",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Meat Dish",
+    "nutrients": {
+      "main_ingredients": [
+        "pork scraps",
+        "cornmeal",
+        "flour"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "Low"
   },
   {
-    "name": "Beignets",
-    "region": "Louisiana",
-    "category": "Pastry",
-    "main_ingredients": ["flour", "sugar", "yeast", "powdered sugar"],
-    "cooking_method": "Fried",
-    "popularity": "High"
+    "title": "Beignets",
+    "cuisine": "Louisiana",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Pastry",
+    "nutrients": {
+      "main_ingredients": [
+        "flour",
+        "sugar",
+        "yeast",
+        "powdered sugar"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "High"
   },
   {
-    "name": "Pecan Pie",
-    "region": "Southern States",
-    "category": "Dessert",
-    "main_ingredients": ["pecans", "sugar", "butter", "eggs"],
-    "cooking_method": "Baked",
-    "popularity": "High"
+    "title": "Pecan Pie",
+    "cuisine": "Southern States",
+    "rating": null,
+    "prep_time": null,
+    "cook_time": null,
+    "total_time": null,
+    "description": "Dessert",
+    "nutrients": {
+      "main_ingredients": [
+        "pecans",
+        "sugar",
+        "butter",
+        "eggs"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "High"
   }
 ]
