@@ -2,90 +2,72 @@
   {
     "title": "Texas BBQ Ribs",
     "cuisine": "Texas",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "BBQ",
+    "rating": 4.8,
+    "prep_time": 30,
+    "cook_time": 180,
+    "total_time": 210,
+    "description": "Smoky, tender pork ribs slow-cooked with a tangy Texas BBQ sauce.",
     "nutrients": {
       "main_ingredients": [
         "pork ribs",
         "BBQ sauce",
-        "spices"
+        "smoke rub"
       ],
       "cooking_method": "Smoked"
     },
     "serves": "High"
   },
   {
-    "title": "Philly Cheesesteak",
-    "cuisine": "Pennsylvania",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Sandwich",
+    "title": "California Sushi Rolls",
+    "cuisine": "California",
+    "rating": 4.6,
+    "prep_time": 25,
+    "cook_time": 0,
+    "total_time": 25,
+    "description": "Refreshing sushi rolls with crab, avocado, and cucumber.",
     "nutrients": {
       "main_ingredients": [
-        "beef",
-        "cheese",
-        "hoagie roll",
-        "onions"
+        "sushi rice",
+        "crab",
+        "avocado",
+        "cucumber"
       ],
-      "cooking_method": "Grilled"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Cornbread",
-    "cuisine": "Southern States",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Bread",
-    "nutrients": {
-      "main_ingredients": [
-        "cornmeal",
-        "buttermilk",
-        "eggs"
-      ],
-      "cooking_method": "Baked"
+      "cooking_method": "Rolled"
     },
     "serves": "Medium"
   },
   {
-    "title": "Apple Pie",
-    "cuisine": "Nationwide",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Dessert",
+    "title": "New York Cheesecake",
+    "cuisine": "New York",
+    "rating": 4.9,
+    "prep_time": 30,
+    "cook_time": 90,
+    "total_time": 120,
+    "description": "Classic dense and creamy cheesecake with graham cracker crust.",
     "nutrients": {
       "main_ingredients": [
-        "apples",
+        "cream cheese",
+        "eggs",
         "sugar",
-        "flour",
-        "butter"
+        "graham crackers"
       ],
       "cooking_method": "Baked"
     },
     "serves": "High"
   },
   {
-    "title": "Chicago Deep-Dish Pizza",
+    "title": "Chicago Deep Dish Pizza",
     "cuisine": "Illinois",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Pizza",
+    "rating": 4.7,
+    "prep_time": 40,
+    "cook_time": 45,
+    "total_time": 85,
+    "description": "Thick, buttery crust pizza loaded with cheese and chunky tomato sauce.",
     "nutrients": {
       "main_ingredients": [
-        "dough",
+        "pizza dough",
+        "mozzarella",
         "tomato sauce",
-        "cheese",
         "sausage"
       ],
       "cooking_method": "Baked"
@@ -93,622 +75,247 @@
     "serves": "High"
   },
   {
-    "title": "New England Clam Chowder",
-    "cuisine": "Massachusetts",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Soup",
-    "nutrients": {
-      "main_ingredients": [
-        "clams",
-        "potatoes",
-        "cream",
-        "onions"
-      ],
-      "cooking_method": "Boiled"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Cajun Jambalaya",
+    "title": "Louisiana Gumbo",
     "cuisine": "Louisiana",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Rice Dish",
+    "rating": 4.8,
+    "prep_time": 25,
+    "cook_time": 90,
+    "total_time": 115,
+    "description": "Hearty stew with sausage, seafood, and okra in a flavorful roux.",
     "nutrients": {
       "main_ingredients": [
-        "rice",
-        "sausage",
-        "chicken",
         "shrimp",
-        "spices"
+        "andouille sausage",
+        "okra",
+        "rice"
       ],
-      "cooking_method": "Simmered"
+      "cooking_method": "Stewed"
     },
     "serves": "High"
   },
   {
-    "title": "Shrimp and Grits",
-    "cuisine": "South Carolina",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Seafood",
-    "nutrients": {
-      "main_ingredients": [
-        "shrimp",
-        "grits",
-        "butter",
-        "cheese"
-      ],
-      "cooking_method": "Sauteed"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Lobster Roll",
+    "title": "Maine Lobster Roll",
     "cuisine": "Maine",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Sandwich",
+    "rating": 4.9,
+    "prep_time": 29,
+    "cook_time": 70,
+    "total_time": 99,
+    "description": "Signature Maine dish made with lobster, butter, roll.",
     "nutrients": {
       "main_ingredients": [
         "lobster",
         "butter",
         "roll"
       ],
-      "cooking_method": "Boiled"
+      "cooking_method": "Grilled"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Philly Cheesesteak",
+    "cuisine": "Pennsylvania",
+    "rating": 4.4,
+    "prep_time": 30,
+    "cook_time": 59,
+    "total_time": 89,
+    "description": "Signature Pennsylvania dish made with beef, cheese, hoagie roll.",
+    "nutrients": {
+      "main_ingredients": [
+        "beef",
+        "cheese",
+        "hoagie roll"
+      ],
+      "cooking_method": "Griddled"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Clam Chowder",
+    "cuisine": "Massachusetts",
+    "rating": 4.4,
+    "prep_time": 37,
+    "cook_time": 98,
+    "total_time": 135,
+    "description": "Signature Massachusetts dish made with clams, potatoes, cream.",
+    "nutrients": {
+      "main_ingredients": [
+        "clams",
+        "potatoes",
+        "cream"
+      ],
+      "cooking_method": "Stewed"
     },
     "serves": "High"
   },
   {
-    "title": "Nashville Hot Chicken",
+    "title": "Hot Chicken",
     "cuisine": "Tennessee",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Fried Chicken",
+    "rating": 4.9,
+    "prep_time": 25,
+    "cook_time": 25,
+    "total_time": 50,
+    "description": "Signature Tennessee dish made with chicken, spices, oil.",
     "nutrients": {
       "main_ingredients": [
         "chicken",
-        "hot sauce",
-        "flour"
+        "spices",
+        "oil"
       ],
       "cooking_method": "Fried"
     },
-    "serves": "High"
+    "serves": "Low"
   },
   {
-    "title": "Kansas City Burnt Ends",
-    "cuisine": "Missouri",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "BBQ",
+    "title": "Fried Green Tomatoes",
+    "cuisine": "Alabama",
+    "rating": 4.5,
+    "prep_time": 35,
+    "cook_time": 30,
+    "total_time": 65,
+    "description": "Signature Alabama dish made with green tomatoes, cornmeal, oil.",
     "nutrients": {
       "main_ingredients": [
-        "brisket",
-        "BBQ sauce",
-        "spices"
+        "green tomatoes",
+        "cornmeal",
+        "oil"
       ],
-      "cooking_method": "Smoked"
+      "cooking_method": "Fried"
+    },
+    "serves": "Medium"
+  },
+  {
+    "title": "Buffalo Wings",
+    "cuisine": "New York",
+    "rating": 4.5,
+    "prep_time": 18,
+    "cook_time": 68,
+    "total_time": 86,
+    "description": "Signature New York dish made with chicken wings, buffalo sauce, butter.",
+    "nutrients": {
+      "main_ingredients": [
+        "chicken wings",
+        "buffalo sauce",
+        "butter"
+      ],
+      "cooking_method": "Fried"
     },
     "serves": "Medium"
   },
   {
     "title": "Key Lime Pie",
     "cuisine": "Florida",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Dessert",
+    "rating": 4.9,
+    "prep_time": 19,
+    "cook_time": 37,
+    "total_time": 56,
+    "description": "Signature Florida dish made with key lime juice, eggs, condensed milk.",
     "nutrients": {
       "main_ingredients": [
-        "key limes",
-        "graham cracker crust",
+        "key lime juice",
+        "eggs",
         "condensed milk"
       ],
-      "cooking_method": "Chilled"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Chicken Fried Steak",
-    "cuisine": "Texas",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Meat Dish",
-    "nutrients": {
-      "main_ingredients": [
-        "beef steak",
-        "flour",
-        "gravy"
-      ],
-      "cooking_method": "Fried"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Gumbo",
-    "cuisine": "Louisiana",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Stew",
-    "nutrients": {
-      "main_ingredients": [
-        "seafood or chicken",
-        "okra",
-        "spices",
-        "rice"
-      ],
-      "cooking_method": "Simmered"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Po\u2019 Boy Sandwich",
-    "cuisine": "Louisiana",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Sandwich",
-    "nutrients": {
-      "main_ingredients": [
-        "shrimp or roast beef",
-        "French bread",
-        "lettuce",
-        "tomato"
-      ],
-      "cooking_method": "Fried or Grilled"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Cuban Sandwich",
-    "cuisine": "Florida",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Sandwich",
-    "nutrients": {
-      "main_ingredients": [
-        "ham",
-        "pork",
-        "cheese",
-        "pickles",
-        "Cuban bread"
-      ],
-      "cooking_method": "Pressed Grilled"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Chili con Carne",
-    "cuisine": "Texas",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Stew",
-    "nutrients": {
-      "main_ingredients": [
-        "beef",
-        "beans",
-        "tomatoes",
-        "chili peppers"
-      ],
-      "cooking_method": "Simmered"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "New York Cheesecake",
-    "cuisine": "New York",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Dessert",
-    "nutrients": {
-      "main_ingredients": [
-        "cream cheese",
-        "sugar",
-        "graham cracker crust"
-      ],
       "cooking_method": "Baked"
     },
     "serves": "High"
   },
   {
-    "title": "Buffalo Wings",
-    "cuisine": "New York",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Appetizer",
+    "title": "Cincinnati Chili",
+    "cuisine": "Ohio",
+    "rating": 4.8,
+    "prep_time": 25,
+    "cook_time": 59,
+    "total_time": 84,
+    "description": "Signature Ohio dish made with ground beef, spices, spaghetti.",
     "nutrients": {
       "main_ingredients": [
-        "chicken wings",
-        "hot sauce",
+        "ground beef",
+        "spices",
+        "spaghetti"
+      ],
+      "cooking_method": "Simmered"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Shrimp and Grits",
+    "cuisine": "South Carolina",
+    "rating": 4.8,
+    "prep_time": 26,
+    "cook_time": 119,
+    "total_time": 145,
+    "description": "Signature South Carolina dish made with shrimp, grits, butter.",
+    "nutrients": {
+      "main_ingredients": [
+        "shrimp",
+        "grits",
         "butter"
       ],
-      "cooking_method": "Fried"
+      "cooking_method": "Sauteed"
     },
     "serves": "High"
   },
   {
-    "title": "Boston Baked Beans",
-    "cuisine": "Massachusetts",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Side Dish",
+    "title": "Sonoran Hot Dog",
+    "cuisine": "Arizona",
+    "rating": 4.7,
+    "prep_time": 35,
+    "cook_time": 103,
+    "total_time": 138,
+    "description": "Signature Arizona dish made with hot dog, bacon, pinto beans.",
     "nutrients": {
       "main_ingredients": [
-        "beans",
-        "molasses",
-        "pork"
-      ],
-      "cooking_method": "Baked"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Mississippi Mud Pie",
-    "cuisine": "Mississippi",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Dessert",
-    "nutrients": {
-      "main_ingredients": [
-        "chocolate",
-        "whipped cream",
-        "cookie crust"
-      ],
-      "cooking_method": "Chilled"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Maryland Crab Cakes",
-    "cuisine": "Maryland",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Seafood",
-    "nutrients": {
-      "main_ingredients": [
-        "crab meat",
-        "breadcrumbs",
-        "mayonnaise"
-      ],
-      "cooking_method": "Pan-fried"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Reuben Sandwich",
-    "cuisine": "New York",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Sandwich",
-    "nutrients": {
-      "main_ingredients": [
-        "corned beef",
-        "sauerkraut",
-        "Swiss cheese",
-        "rye bread"
+        "hot dog",
+        "bacon",
+        "pinto beans"
       ],
       "cooking_method": "Grilled"
     },
-    "serves": "High"
+    "serves": "Low"
   },
   {
-    "title": "Smoked Brisket",
-    "cuisine": "Texas",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "BBQ",
+    "title": "Kansas City Burnt Ends",
+    "cuisine": "Missouri",
+    "rating": 4.6,
+    "prep_time": 34,
+    "cook_time": 25,
+    "total_time": 59,
+    "description": "Signature Missouri dish made with brisket, BBQ sauce.",
     "nutrients": {
       "main_ingredients": [
-        "beef brisket",
-        "dry rub spices"
+        "brisket",
+        "BBQ sauce"
       ],
       "cooking_method": "Smoked"
     },
     "serves": "High"
   },
   {
-    "title": "Fish Tacos",
-    "cuisine": "California",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Seafood",
+    "title": "Wisconsin Cheese Curds",
+    "cuisine": "Wisconsin",
+    "rating": 4.5,
+    "prep_time": 38,
+    "cook_time": 77,
+    "total_time": 115,
+    "description": "Signature Wisconsin dish made with cheese curds, batter, oil.",
     "nutrients": {
       "main_ingredients": [
-        "fish",
-        "tortilla",
-        "cabbage",
-        "salsa"
-      ],
-      "cooking_method": "Grilled"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Denver Omelet",
-    "cuisine": "Colorado",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Breakfast",
-    "nutrients": {
-      "main_ingredients": [
-        "eggs",
-        "ham",
-        "onions",
-        "peppers"
-      ],
-      "cooking_method": "Fried"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Biscuits and Gravy",
-    "cuisine": "Southern States",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Breakfast",
-    "nutrients": {
-      "main_ingredients": [
-        "biscuits",
-        "sausage gravy"
-      ],
-      "cooking_method": "Baked/Fried"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Fried Catfish",
-    "cuisine": "Southern States",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Seafood",
-    "nutrients": {
-      "main_ingredients": [
-        "catfish",
-        "cornmeal",
+        "cheese curds",
+        "batter",
         "oil"
       ],
       "cooking_method": "Fried"
     },
-    "serves": "Medium"
+    "serves": "Low"
   },
   {
-    "title": "Cobb Salad",
-    "cuisine": "California",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Salad",
-    "nutrients": {
-      "main_ingredients": [
-        "lettuce",
-        "chicken",
-        "bacon",
-        "avocado",
-        "egg"
-      ],
-      "cooking_method": "Fresh"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Waldorf Salad",
-    "cuisine": "New York",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Salad",
-    "nutrients": {
-      "main_ingredients": [
-        "apples",
-        "walnuts",
-        "celery",
-        "mayonnaise"
-      ],
-      "cooking_method": "Fresh"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Chicken Pot Pie",
-    "cuisine": "Pennsylvania Dutch",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Pie",
-    "nutrients": {
-      "main_ingredients": [
-        "chicken",
-        "vegetables",
-        "gravy",
-        "pastry crust"
-      ],
-      "cooking_method": "Baked"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Sloppy Joe",
-    "cuisine": "Midwest",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Sandwich",
-    "nutrients": {
-      "main_ingredients": [
-        "ground beef",
-        "tomato sauce",
-        "bun"
-      ],
-      "cooking_method": "Simmered"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Cincinnati Chili",
-    "cuisine": "Ohio",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Stew",
-    "nutrients": {
-      "main_ingredients": [
-        "ground beef",
-        "spices",
-        "tomato sauce"
-      ],
-      "cooking_method": "Simmered"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Pierogi",
-    "cuisine": "Pennsylvania",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Dumpling",
-    "nutrients": {
-      "main_ingredients": [
-        "dough",
-        "potatoes",
-        "cheese"
-      ],
-      "cooking_method": "Boiled/Fried"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Chicago Italian Beef Sandwich",
-    "cuisine": "Illinois",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Sandwich",
-    "nutrients": {
-      "main_ingredients": [
-        "beef",
-        "bread",
-        "giardiniera"
-      ],
-      "cooking_method": "Roasted"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Avocado Toast",
-    "cuisine": "California",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Breakfast",
-    "nutrients": {
-      "main_ingredients": [
-        "bread",
-        "avocado",
-        "seasoning"
-      ],
-      "cooking_method": "Fresh"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Hush Puppies",
-    "cuisine": "Southern States",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Side Dish",
-    "nutrients": {
-      "main_ingredients": [
-        "cornmeal",
-        "flour",
-        "oil"
-      ],
-      "cooking_method": "Fried"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Meatloaf",
-    "cuisine": "Midwest",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Meat Dish",
-    "nutrients": {
-      "main_ingredients": [
-        "ground beef",
-        "breadcrumbs",
-        "onion",
-        "egg"
-      ],
-      "cooking_method": "Baked"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Hotdish",
+    "title": "Minnesota Hotdish",
     "cuisine": "Minnesota",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Casserole",
+    "rating": 4.8,
+    "prep_time": 13,
+    "cook_time": 72,
+    "total_time": 85,
+    "description": "Signature Minnesota dish made with ground beef, tater tots, cream soup.",
     "nutrients": {
       "main_ingredients": [
         "ground beef",
@@ -717,225 +324,558 @@
       ],
       "cooking_method": "Baked"
     },
-    "serves": "Medium"
+    "serves": "Low"
   },
   {
-    "title": "Sweet Potato Pie",
-    "cuisine": "Southern States",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Dessert",
-    "nutrients": {
-      "main_ingredients": [
-        "sweet potatoes",
-        "sugar",
-        "butter",
-        "spices"
-      ],
-      "cooking_method": "Baked"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Corn Dogs",
-    "cuisine": "Midwest",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Snack",
-    "nutrients": {
-      "main_ingredients": [
-        "hot dogs",
-        "cornmeal batter"
-      ],
-      "cooking_method": "Fried"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Tater Tot Casserole",
-    "cuisine": "Midwest",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Casserole",
-    "nutrients": {
-      "main_ingredients": [
-        "tater tots",
-        "cheese",
-        "beef",
-        "soup"
-      ],
-      "cooking_method": "Baked"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Smoked Salmon Bagel",
-    "cuisine": "New York",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Breakfast",
-    "nutrients": {
-      "main_ingredients": [
-        "bagel",
-        "smoked salmon",
-        "cream cheese"
-      ],
-      "cooking_method": "Fresh"
-    },
-    "serves": "High"
-  },
-  {
-    "title": "Tamale Pie",
-    "cuisine": "Southwest",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Pie",
-    "nutrients": {
-      "main_ingredients": [
-        "cornmeal",
-        "beef",
-        "tomatoes",
-        "spices"
-      ],
-      "cooking_method": "Baked"
-    },
-    "serves": "Medium"
-  },
-  {
-    "title": "Indian Fry Bread",
-    "cuisine": "Southwest",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Bread",
+    "title": "Vermont Maple Pancakes",
+    "cuisine": "Vermont",
+    "rating": 4.8,
+    "prep_time": 14,
+    "cook_time": 44,
+    "total_time": 58,
+    "description": "Signature Vermont dish made with flour, maple syrup, eggs.",
     "nutrients": {
       "main_ingredients": [
         "flour",
-        "oil",
-        "salt"
+        "maple syrup",
+        "eggs"
+      ],
+      "cooking_method": "Griddled"
+    },
+    "serves": "High"
+  },
+  {
+    "title": "Alaska King Crab Legs",
+    "cuisine": "Alaska",
+    "rating": 4.7,
+    "prep_time": 34,
+    "cook_time": 10,
+    "total_time": 44,
+    "description": "Signature Alaska dish made with king crab, butter, lemon.",
+    "nutrients": {
+      "main_ingredients": [
+        "king crab",
+        "butter",
+        "lemon"
+      ],
+      "cooking_method": "Steamed"
+    },
+    "serves": "Medium"
+  },
+  {
+    "title": "Hawaiian Poke Bowl",
+    "cuisine": "Hawaii",
+    "rating": 4.5,
+    "prep_time": 21,
+    "cook_time": 69,
+    "total_time": 90,
+    "description": "Signature Hawaii dish made with raw fish, rice, soy sauce.",
+    "nutrients": {
+      "main_ingredients": [
+        "raw fish",
+        "rice",
+        "soy sauce"
+      ],
+      "cooking_method": "Raw"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Utah Fry Sauce Burger",
+    "cuisine": "Utah",
+    "rating": 4.8,
+    "prep_time": 24,
+    "cook_time": 77,
+    "total_time": 101,
+    "description": "Signature Utah dish made with burger patty, fry sauce, bun.",
+    "nutrients": {
+      "main_ingredients": [
+        "burger patty",
+        "fry sauce",
+        "bun"
+      ],
+      "cooking_method": "Grilled"
+    },
+    "serves": "High"
+  },
+  {
+    "title": "Colorado Green Chili",
+    "cuisine": "Colorado",
+    "rating": 4.5,
+    "prep_time": 33,
+    "cook_time": 70,
+    "total_time": 103,
+    "description": "Signature Colorado dish made with pork, green chiles, tomatoes.",
+    "nutrients": {
+      "main_ingredients": [
+        "pork",
+        "green chiles",
+        "tomatoes"
+      ],
+      "cooking_method": "Stewed"
+    },
+    "serves": "Medium"
+  },
+  {
+    "title": "Maryland Crab Cakes",
+    "cuisine": "Maryland",
+    "rating": 4.9,
+    "prep_time": 35,
+    "cook_time": 110,
+    "total_time": 145,
+    "description": "Signature Maryland dish made with crab meat, breadcrumbs, spices.",
+    "nutrients": {
+      "main_ingredients": [
+        "crab meat",
+        "breadcrumbs",
+        "spices"
       ],
       "cooking_method": "Fried"
     },
     "serves": "Medium"
   },
   {
-    "title": "Frito Pie",
-    "cuisine": "Texas",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Snack",
+    "title": "Oregon Marionberry Pie",
+    "cuisine": "Oregon",
+    "rating": 4.6,
+    "prep_time": 30,
+    "cook_time": 61,
+    "total_time": 91,
+    "description": "Signature Oregon dish made with marionberries, sugar, pastry crust.",
     "nutrients": {
       "main_ingredients": [
-        "Fritos",
-        "chili",
-        "cheese"
+        "marionberries",
+        "sugar",
+        "pastry crust"
       ],
-      "cooking_method": "Layered"
+      "cooking_method": "Baked"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Idaho Finger Steaks",
+    "cuisine": "Idaho",
+    "rating": 4.8,
+    "prep_time": 32,
+    "cook_time": 72,
+    "total_time": 104,
+    "description": "Signature Idaho dish made with steak strips, batter, oil.",
+    "nutrients": {
+      "main_ingredients": [
+        "steak strips",
+        "batter",
+        "oil"
+      ],
+      "cooking_method": "Fried"
     },
     "serves": "Medium"
   },
   {
-    "title": "Green Chile Stew",
-    "cuisine": "New Mexico",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Stew",
+    "title": "Montana Bison Burger",
+    "cuisine": "Montana",
+    "rating": 4.9,
+    "prep_time": 16,
+    "cook_time": 92,
+    "total_time": 108,
+    "description": "Signature Montana dish made with bison patty, bun, cheese.",
     "nutrients": {
       "main_ingredients": [
-        "green chiles",
+        "bison patty",
+        "bun",
+        "cheese"
+      ],
+      "cooking_method": "Grilled"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Nevada Shrimp Cocktail",
+    "cuisine": "Nevada",
+    "rating": 4.6,
+    "prep_time": 25,
+    "cook_time": 92,
+    "total_time": 117,
+    "description": "Signature Nevada dish made with shrimp, cocktail sauce.",
+    "nutrients": {
+      "main_ingredients": [
+        "shrimp",
+        "cocktail sauce"
+      ],
+      "cooking_method": "Boiled"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "New Mexico Green Chile Stew",
+    "cuisine": "New Mexico",
+    "rating": 4.9,
+    "prep_time": 24,
+    "cook_time": 83,
+    "total_time": 107,
+    "description": "Signature New Mexico dish made with green chile, pork, potatoes.",
+    "nutrients": {
+      "main_ingredients": [
+        "green chile",
         "pork",
         "potatoes"
+      ],
+      "cooking_method": "Stewed"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "North Carolina Pulled Pork",
+    "cuisine": "North Carolina",
+    "rating": 4.9,
+    "prep_time": 38,
+    "cook_time": 17,
+    "total_time": 55,
+    "description": "Signature North Carolina dish made with pork shoulder, vinegar BBQ sauce.",
+    "nutrients": {
+      "main_ingredients": [
+        "pork shoulder",
+        "vinegar BBQ sauce"
+      ],
+      "cooking_method": "Smoked"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "South Dakota Chislic",
+    "cuisine": "South Dakota",
+    "rating": 5.0,
+    "prep_time": 39,
+    "cook_time": 39,
+    "total_time": 78,
+    "description": "Signature South Dakota dish made with cubed meat, seasonings.",
+    "nutrients": {
+      "main_ingredients": [
+        "cubed meat",
+        "seasonings"
+      ],
+      "cooking_method": "Grilled"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "North Dakota Knoephla Soup",
+    "cuisine": "North Dakota",
+    "rating": 4.4,
+    "prep_time": 16,
+    "cook_time": 26,
+    "total_time": 42,
+    "description": "Signature North Dakota dish made with dumplings, potatoes, cream.",
+    "nutrients": {
+      "main_ingredients": [
+        "dumplings",
+        "potatoes",
+        "cream"
+      ],
+      "cooking_method": "Stewed"
+    },
+    "serves": "Medium"
+  },
+  {
+    "title": "Oklahoma Fried Onion Burger",
+    "cuisine": "Oklahoma",
+    "rating": 4.5,
+    "prep_time": 12,
+    "cook_time": 25,
+    "total_time": 37,
+    "description": "Signature Oklahoma dish made with ground beef, onions, bun.",
+    "nutrients": {
+      "main_ingredients": [
+        "ground beef",
+        "onions",
+        "bun"
+      ],
+      "cooking_method": "Griddled"
+    },
+    "serves": "High"
+  },
+  {
+    "title": "Kentucky Hot Brown",
+    "cuisine": "Kentucky",
+    "rating": 4.7,
+    "prep_time": 34,
+    "cook_time": 10,
+    "total_time": 44,
+    "description": "Signature Kentucky dish made with turkey, Mornay sauce, bacon.",
+    "nutrients": {
+      "main_ingredients": [
+        "turkey",
+        "Mornay sauce",
+        "bacon"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "High"
+  },
+  {
+    "title": "West Virginia Pepperoni Roll",
+    "cuisine": "West Virginia",
+    "rating": 4.5,
+    "prep_time": 20,
+    "cook_time": 76,
+    "total_time": 96,
+    "description": "Signature West Virginia dish made with pepperoni, bread dough.",
+    "nutrients": {
+      "main_ingredients": [
+        "pepperoni",
+        "bread dough"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Arkansas Possum Pie",
+    "cuisine": "Arkansas",
+    "rating": 4.6,
+    "prep_time": 20,
+    "cook_time": 26,
+    "total_time": 46,
+    "description": "Signature Arkansas dish made with cream cheese, chocolate pudding, pecans.",
+    "nutrients": {
+      "main_ingredients": [
+        "cream cheese",
+        "chocolate pudding",
+        "pecans"
+      ],
+      "cooking_method": "Chilled"
+    },
+    "serves": "High"
+  },
+  {
+    "title": "Iowa Maid-Rite Sandwich",
+    "cuisine": "Iowa",
+    "rating": 4.4,
+    "prep_time": 17,
+    "cook_time": 45,
+    "total_time": 62,
+    "description": "Signature Iowa dish made with loose meat, bun, pickles.",
+    "nutrients": {
+      "main_ingredients": [
+        "loose meat",
+        "bun",
+        "pickles"
       ],
       "cooking_method": "Simmered"
     },
     "serves": "Medium"
   },
   {
-    "title": "Chitlins",
-    "cuisine": "Southern States",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Meat Dish",
+    "title": "Indiana Pork Tenderloin Sandwich",
+    "cuisine": "Indiana",
+    "rating": 4.3,
+    "prep_time": 30,
+    "cook_time": 34,
+    "total_time": 64,
+    "description": "Signature Indiana dish made with pork tenderloin, bun, lettuce.",
     "nutrients": {
       "main_ingredients": [
-        "pig intestines",
-        "vinegar",
-        "spices"
-      ],
-      "cooking_method": "Boiled/Fried"
-    },
-    "serves": "Low"
-  },
-  {
-    "title": "Scrapple",
-    "cuisine": "Pennsylvania Dutch",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Meat Dish",
-    "nutrients": {
-      "main_ingredients": [
-        "pork scraps",
-        "cornmeal",
-        "flour"
+        "pork tenderloin",
+        "bun",
+        "lettuce"
       ],
       "cooking_method": "Fried"
     },
     "serves": "Low"
   },
   {
-    "title": "Beignets",
-    "cuisine": "Louisiana",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Pastry",
+    "title": "Nebraska Runza",
+    "cuisine": "Nebraska",
+    "rating": 4.3,
+    "prep_time": 17,
+    "cook_time": 20,
+    "total_time": 37,
+    "description": "Signature Nebraska dish made with beef, cabbage, bread dough.",
     "nutrients": {
       "main_ingredients": [
-        "flour",
+        "beef",
+        "cabbage",
+        "bread dough"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
+  },
+  {
+    "title": "Mississippi Mud Pie",
+    "cuisine": "Mississippi",
+    "rating": 4.3,
+    "prep_time": 21,
+    "cook_time": 27,
+    "total_time": 48,
+    "description": "Signature Mississippi dish made with chocolate, whipped cream, cookie crust.",
+    "nutrients": {
+      "main_ingredients": [
+        "chocolate",
+        "whipped cream",
+        "cookie crust"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Georgia Peach Cobbler",
+    "cuisine": "Georgia",
+    "rating": 4.8,
+    "prep_time": 18,
+    "cook_time": 64,
+    "total_time": 82,
+    "description": "Signature Georgia dish made with peaches, sugar, pastry dough.",
+    "nutrients": {
+      "main_ingredients": [
+        "peaches",
         "sugar",
-        "yeast",
-        "powdered sugar"
+        "pastry dough"
       ],
-      "cooking_method": "Fried"
+      "cooking_method": "Baked"
     },
     "serves": "High"
   },
   {
-    "title": "Pecan Pie",
-    "cuisine": "Southern States",
-    "rating": null,
-    "prep_time": null,
-    "cook_time": null,
-    "total_time": null,
-    "description": "Dessert",
+    "title": "Washington Salmon",
+    "cuisine": "Washington",
+    "rating": 4.4,
+    "prep_time": 38,
+    "cook_time": 72,
+    "total_time": 110,
+    "description": "Signature Washington dish made with salmon, herbs, lemon.",
     "nutrients": {
       "main_ingredients": [
-        "pecans",
-        "sugar",
-        "butter",
-        "eggs"
+        "salmon",
+        "herbs",
+        "lemon"
+      ],
+      "cooking_method": "Grilled"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Wyoming Elk Steak",
+    "cuisine": "Wyoming",
+    "rating": 4.9,
+    "prep_time": 36,
+    "cook_time": 74,
+    "total_time": 110,
+    "description": "Signature Wyoming dish made with elk steak, spices.",
+    "nutrients": {
+      "main_ingredients": [
+        "elk steak",
+        "spices"
+      ],
+      "cooking_method": "Grilled"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "Delaware Slippery Dumplings",
+    "cuisine": "Delaware",
+    "rating": 5.0,
+    "prep_time": 27,
+    "cook_time": 21,
+    "total_time": 48,
+    "description": "Signature Delaware dish made with chicken, dumplings, broth.",
+    "nutrients": {
+      "main_ingredients": [
+        "chicken",
+        "dumplings",
+        "broth"
+      ],
+      "cooking_method": "Boiled"
+    },
+    "serves": "Medium"
+  },
+  {
+    "title": "Michigan Pasties",
+    "cuisine": "Michigan",
+    "rating": 4.8,
+    "prep_time": 17,
+    "cook_time": 66,
+    "total_time": 83,
+    "description": "Signature Michigan dish made with beef, potatoes, pastry crust.",
+    "nutrients": {
+      "main_ingredients": [
+        "beef",
+        "potatoes",
+        "pastry crust"
       ],
       "cooking_method": "Baked"
+    },
+    "serves": "High"
+  },
+  {
+    "title": "Rhode Island Clam Cakes",
+    "cuisine": "Rhode Island",
+    "rating": 5.0,
+    "prep_time": 36,
+    "cook_time": 77,
+    "total_time": 113,
+    "description": "Signature Rhode Island dish made with clams, flour, oil.",
+    "nutrients": {
+      "main_ingredients": [
+        "clams",
+        "flour",
+        "oil"
+      ],
+      "cooking_method": "Fried"
+    },
+    "serves": "Medium"
+  },
+  {
+    "title": "Connecticut Lobster Mac and Cheese",
+    "cuisine": "Connecticut",
+    "rating": 5.0,
+    "prep_time": 11,
+    "cook_time": 105,
+    "total_time": 116,
+    "description": "Signature Connecticut dish made with lobster, pasta, cheese.",
+    "nutrients": {
+      "main_ingredients": [
+        "lobster",
+        "pasta",
+        "cheese"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Medium"
+  },
+  {
+    "title": "Virginia Ham Biscuits",
+    "cuisine": "Virginia",
+    "rating": 4.6,
+    "prep_time": 36,
+    "cook_time": 78,
+    "total_time": 114,
+    "description": "Signature Virginia dish made with ham, biscuits, mustard.",
+    "nutrients": {
+      "main_ingredients": [
+        "ham",
+        "biscuits",
+        "mustard"
+      ],
+      "cooking_method": "Baked"
+    },
+    "serves": "Low"
+  },
+  {
+    "title": "New Jersey Pork Roll Sandwich",
+    "cuisine": "New Jersey",
+    "rating": 4.8,
+    "prep_time": 10,
+    "cook_time": 11,
+    "total_time": 21,
+    "description": "Signature New Jersey dish made with pork roll, egg, cheese.",
+    "nutrients": {
+      "main_ingredients": [
+        "pork roll",
+        "egg",
+        "cheese"
+      ],
+      "cooking_method": "Griddled"
     },
     "serves": "High"
   }
