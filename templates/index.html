@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Securin Recipe Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe Finder</h1>
+
+        <div class="filters">
+            <input type="text" id="title-filter" placeholder="Filter by Title...">
+            <input type="text" id="cuisine-filter" placeholder="Filter by Cuisine...">
+        </div>
+
+        <table id="recipes-table">
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Cuisine</th>
+                    <th>Rating</th>
+                    <th>Total Time (min)</th>
+                    <th>Serves</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+        <div id="no-data-message" class="fallback-message" style="display: none;">No recipes found in the database.</div>
+        <div id="no-results-message" class="fallback-message" style="display: none;">No recipes match your search criteria.</div>
+
+        <div class="pagination">
+            <button id="prev-page" disabled>Previous</button>
+            <span id="page-info">Page 1 of 1</span>
+            <button id="next-page" disabled>Next</button>
+            <select id="limit-select">
+                <option value="15">15 per page</option>
+                <option value="25">25 per page</option>
+                <option value="50">50 per page</option>
+            </select>
+        </div>
+    </div>
+
+    <div id="recipe-drawer" class="drawer">
+        <a href="javascript:void(0)" class="close-btn" id="close-drawer">&times;</a>
+        <div id="drawer-content"></div>
+    </div>
+    <div id="drawer-overlay" class="overlay"></div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
